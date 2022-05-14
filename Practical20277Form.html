@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body bgcolor="lightblue">
+    <h1> <center>Student Registration Form</center></h1>
+    <hr>
+    <h2><center>All of the Details are Mandatory</center></h2>
+
+    <center>
+        <form border=10px>
+            <table>
+                <tr>
+                    <td><b>Enter Your Name:</b></td><td><input type="text" 
+                        size="50" 
+                        required placeholder="Enter Your Name"
+                        ></td>
+                </tr>
+
+                <tr>
+                    <td colspan=2>
+                        <fieldset>
+                            <legend><b>Enter Your Address: </b></legend>
+                            <center>
+                                <table>
+                                    <tr><td>House Number: </td><td>
+                                        <input type="number" placeholder="Enter Your House Number" size="22" required>
+                                    </td></tr>
+
+
+                                    <tr><td>Street Name: </td><td>
+                                        <input type="text" placeholder="Enter Your Street" size="30" required>
+                                    </td></tr>
+
+                                    <tr><td>Area: </td><td>
+                                        <input type="text" placeholder="Enter Your Area" size="30" required>
+                                    </td></tr>
+
+                                    <tr><td>City Name: </td><td>
+                                        <input type="text" placeholder="Enter Your City" size="30" required>
+                                    </td></tr>
+
+                                    <tr><td>State Name: </td><td>
+                                        <input type="text" placeholder="Enter Your State" size="30" required>
+                                    </td></tr>
+
+
+                                </table>
+                            </center>
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <tr><td><b>Enter Your Phone Number: </b></td><td>
+                                        <input type="tel" placeholder="Enter Your Phone Number"
+                                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                        required title="Enter Your Phone Number in this pattern 123-456-789" >
+                                    </td></tr>
+
+                    <tr><td><b>Enter Your Email ID: </b></td><td>
+                                        <input type="email" size="30" placeholder="Enter a valid Email ID"
+                                        required title="valid email id should contain '@' symbol"   >
+                                    </td></tr>
+
+                    <tr><td><b>Enter Your Password: </b></td><td>
+                                        <input type="password" size="40" placeholder="Enter a minimum of 7 chars for your Password"
+                                        required minlength="7"
+                                        maxlength="12">
+                                    </td></tr>
+
+                    <tr><td><b>Enter Your Date of Birth: </b></td><td>
+                                        <input type="date" 
+                                        required min="2020-12-31" max="2023-12-31"
+                                        placeholder="Enter Your Phone Number">
+                                    </td></tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <fieldset>
+                                <legend><b>Select Gender: </b></legend>
+                                <input type="radio" name="gender" required>Male
+                                <input type="radio" name="gender" required>Female
+                                <input type="radio" name="gender" required>Other
+                            </fieldset>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <fieldset>
+                                <legend><b>Select Your Educational Qualification</b></legend>
+                                <input type="checkbox">SSC
+                                <input type="checkbox">HSSC
+                                <input type="checkbox">Graduate
+                                <input type="checkbox">Post Graduate
+                                <input type="checkbox">Doctrate
+                            </fieldset>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <b>Select Your City Preference: </b>
+                            <select>
+                                <option>Bangalore</option>
+                                <option>Kolkata</option>
+                                <option>Mumbai</option>
+                                <option>Chennai</option>
+                                <option>Kanpur</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <b>Why did you choose this Institution: </b>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <textarea rows="5" cols="30" placeholder="Enter Your Comment Here: "></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <center>
+                                <input type="submit" value="Click Me">
+                                <input type="reset" value="Clear">
+                            </center>
+                        </td>
+                    </tr>
+                </tr>
+            </table>
+    </center>
+</body>
+</html>

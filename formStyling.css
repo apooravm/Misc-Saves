@@ -1,0 +1,93 @@
+    body{
+       	background-color:lightblue;
+	Font-family:"courier new", monospace;
+	font-weight:800;
+    	Margin: 50px 50px;
+	Font-size:20px ;
+	Padding-left:100px;
+    padding-right: 100px;
+              
+    }
+    
+       
+ div {
+      	Background-color:#d1d0d0;
+      	Padding: 5px 10px 5px 10px;
+  	Border:2px solid  rgba(82, 80, 80, 0.308);
+     	Border-radius: 5px;
+              width:500px;
+        
+      }
+
+ h1 {
+         text-align:center;
+         color:hotpink; 
+         text-shadow:      2px 2px 2px #f2f2f2,
+                                 2px 2px 2px white,
+                                 2px 2px 2px blue;
+        font-family: fantasy;
+        text-transform:uppercase;
+        text-decoration: underline overline;
+        line-height: 50px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+   }   
+
+  hr{
+        height:3px; 
+        background-color:rgb(21, 200, 211);
+    }  
+      
+ h2{
+         color:green; 
+         text-shadow: 2px 2px 2px #f2f2f2;                     
+        font-family: cursive;
+        text-transform:capitalize;
+        text-decoration: underline;
+        text-transform: lowercase;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+   }   
+
+   .req{
+        font-size: 1 rem;
+        font-weight: bold;
+        font-style: oblique;
+        font-family: cursive;
+    }
+
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    input[type="number"],
+    Textarea,
+    select {
+              Width:100%;
+	Padding:10px;
+              margin-top:5px;
+ 	Border:1px solid rgb(92, 90, 90);
+	Border-radius:5px;
+   }
+
+    Fieldset {
+        Background-color: rgba(238, 229, 229, 0.438);
+        Border:1px solid rgb(100, 98, 98);
+        Border-radius:5px;
+    }
+
+    
+    button[type="submit"] {
+                  Background-color:rgb(9, 126, 9);
+   	    Color:white;
+	    Padding: 10px;
+  	    Border:none;
+	    Border-radius: 4px;
+	    Cursor:pointer;
+   	    width:100%
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0c3602;
+    }

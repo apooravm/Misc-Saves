@@ -1,0 +1,89 @@
+/**{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+nav {
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+         /*text-align:center;*/
+         color:Black; 
+         text-shadow:      2px 2px 2px #f2f2f2,
+                                 2px 2px 2px red,
+                                 2px 2px 2px blue;
+        font-family: fantasy;
+        text-transform:uppercase;
+        text-decoration: underline overline;
+        line-height: 50px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+   } 
+
+a.paragraph {
+  color: white;
+  text-shadow: 2px 2px 2px #f2f2f2, 
+               2px 2px 2px black,
+               2px 2px 2px black; 
+  font-size: 20px;
+}
+
+main {
+  /*background-color: green;*/
+  width: 70%;
+  height: 500px;
+  /*overflow: auto;*/
+  font-size: 20px;
+  float: left;
+}
+
+div.greendiv {
+  /*width: 70%;*/
+  /*overflow: auto;  */
+  background-color: green;
+}
+
+a.asidetag {
+  /*overflow: .scroll;*/
+}
+
+aside {
+  background-color: lightpink;
+  width: 30%;
+  float: right;
+}
+
+div.muddydiv {
+  margin: 0px;
+  background-color: darkkhaki;
+}

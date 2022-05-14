@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Form</title>
+	<style type="formStyling.css"></style>
+	<link rel="stylesheet" type="text/css" href="formStyling.css">
+</head>
+<body>
+	<h1>Payment Form</h1>
+	<hr>
+	<h4>Required fields denoted with a <b>*<b></h4>
+	<hr>
+	<h1>Contact Information</h1>
+	<tr>
+	        <td colspan="2">
+	            <fieldset>
+	                <legend><b>Prefix: </b></legend>
+	                <ul>
+	                <li><input type="radio" name="prefix" required>Mr</li>
+	                <li><input type="radio" name="prefix" required>Mrs</li>
+	                <li><input type="radio" name="prefix" required>Dr</li>
+	            	</ul>
+	            </fieldset>
+	        </td>
+	    </tr>
+
+	    <tr>
+            <td colspan="2">
+                <fieldset>
+                    <legend><b>PaymentMode</b></legend>
+                    <input type="checkbox">Cash
+                    <input type="checkbox">Credit Card
+                    <input type="checkbox">Debit Card
+                </fieldset>
+            </td>
+        </tr>
+
+        <br>
+        <tr>
+        	<td>Name:<abbr title="required"><b>*</b></abbr></td>
+        	<td>
+            <input type="text"  size="40" required>
+        	</td>
+        </tr>
+
+        <br>
+        <br>
+        <tr>
+        	<td>Email:<abbr title="required"><b>*</b></abbr></td>
+        	<td>
+            <input type="text"  size="40" required>
+        	</td>
+        </tr>
+
+        <br>
+        <br>
+
+        <tr>
+        	<td>Password:<abbr title="required"><b>*</b></abbr></td>
+        	<td>
+            <input type="text"  size="40" required>
+        	</td>
+        </tr>
+
+        <h2>Payment Information</h2>
+        <tr>
+	        <td colspan="2">
+	            <b>Card Type: </b>
+	            <select>
+	                <option>Visa</option>
+	                <option>RuPay</option>
+	                <option>Mastercard</option>
+	                <option>American Express</option>
+	            </select>
+	        </td>
+        </tr>
+
+        <br>
+        <tr>
+        	<td>Card Number:<abbr title="required"><b>*</b></abbr></td>
+        	<td>
+            <input type="text"  size="40" required>
+        	</td>
+        </tr>
+
+        <tr><td><b>Expiration Date: <abbr title="required"><b>*</b></abbr>(mm/dd/yyyy)</b></td><td>
+                                        <input type="date" 
+                                        required min="2020-12-31" max="2023-12-31">
+                                    </td></tr>
+
+        <br>
+
+        <tr>
+            <td colspan="2">
+                <b>Enter Your Comments: </b>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <textarea rows="5" cols="60"></textarea>
+            </td>
+        </tr>
+
+        <br>
+        <br>
+
+        <tr>
+            <td colspan="2">
+                    <input type="submit" value="Validate Payment">
+            </td>
+        </tr>
+</body>
+</html>

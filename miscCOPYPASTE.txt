@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="1">
+            <h1>Animals Table</h1>
+            <tr>
+                <th colspan="2">Animals</th>
+            </tr>
+            <tr>
+                <th colspan="2">Hippopotamus</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Horse</th>
+                <td>Mare</td>
+            </tr>
+            <tr>
+                <td>Stallion</td>
+            </tr>
+            <tr>
+                <th colspan="2">Crocodile</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Chicken</th>
+                <td>Men</td>
+            </tr>
+            <tr>
+                <td>Rooster</td>
+            </tr>
+
+    </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Spending record</h1>
+    <table border="1">      
+         <caption>How to choose to spend my money</caption>     
+                    <tr>
+                        <th>Purchase</th>
+                        <th >Location</th>
+                        <th>Date</th>
+                        <th >Evaluation</th>
+                        <th>Cost ($)</th>
+                    </tr>
+                    <tr>
+                        <td>Haircut</td>
+                        <td>Hairdresser</td>
+                        <td>12/09</td>
+                        <td>Great idea</td>
+                        <td>30</td>
+                    </tr>
+
+                    <tr>
+                        <td>Lasangna</td>
+                        <td>Restaurent</td>
+                        <td>12/09</td>
+                        <td>Regret</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>shoes</td>
+                        <td>shoeshop</td>
+                        <td>13/09</td>
+                        <td>Big regrets</td>
+                        <td>65</td>
+                    </tr>
+                    <tr>
+                        <td>Toothpaste</td>
+                        <td>Supermarket</td>
+                        <td>13/09</td>
+                        <td>Good</td>
+                        <td>5</td>
+                    </tr>
+                    <tr align="left">
+                        <th colspan="4" >Sum</th>
+                        <th>118</th>
+                    </tr>
+    </table>
+</body>
+</html>
